@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pagina-venda.css">
+</head>
+<body>
+    <header>
+    <div id="div1">
+        <h1>T-shirt Sports/Pagina de Vendas</h1>
+    </div>
+</header>
+<main>
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="pagina-venda.html">Pagina venda</a>
+        <a href="./historico-venda.html">Histórico de vendas</a>
+    </nav>
+
+    
+    <h2>Pagina de venda</h2>
+    <form action="">
+        <section>
+            <label for="link-foto">Nome do produto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </section>
+        
+        <section>
+            <label for="preco">Quantidade do produto: </label>
+         
+            <input type="number" id="quantidade-produto" name="quantidade">
+        </section>
+        
+        <label>Opções de pagamento:</label>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="cartao" value="cartao">
+            <label for="cartao">Cartão-crédito</label>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="cartao" value="cartao">
+            <label for="cartao">Cartão-débito</label>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="hora-entrega" value="dinheiro">
+            <label for="DINHEIRO">Pagamento na entrega-dinheiro</label>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="pix" value="pix">
+            <label for="PIX">Pix</label>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="Cheque" value="cheque">
+            <label for="PIX">Cheque</label>
+        </section>
+
+        <input type="submit" value="Enviar">
+    </main>
+
+
+
+    <footer >
+        <img src="imagens/logodinheiro.png" width="200">
+        <p>Feito por Arthur H 2024</p>
+    </footer>
+    
+
+
+    
+</body>
+</html>
